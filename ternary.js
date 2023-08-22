@@ -36,7 +36,7 @@
 // // for (var i = 1; i <= 10; i++) {
 // //     console.log(sum + ' + ' + i + ' = ' + (sum + i))
 // //     sum += i
-    
+
 // // }
 // // console.log(result = '+ sum')
 
@@ -60,7 +60,7 @@
 //     }
 // }
 
-// var isRunning = false 
+// var isRunning = false
 
 // while(isRunning){
 //     console.log( 'I am Running')
@@ -88,7 +88,6 @@
 //     }
 //     console.log(result)
 // }
-
 
 // while(true) {
 //     var rand = Math.floor(Math.random() * 10 + 1)
@@ -172,18 +171,47 @@
 // arr.splice(3, 1, 60)
 // console.log(arr)
 
-var arr = [3,6,'hello',7,1,56,87,91,58,24,100]
+// var arr = [3,6,'hello',7,1,56,87,91,58,24,100]
 
-var find = 'hello'
-var isFound = false
+// var find = 'hello'
+// var isFound = false
 
-for(var i = 0; i < 10 ; i++){
-    if(arr[i] === find ) {
-        console.log('Data fount at index' + ' ' + i)
-    isFound = true
-    break
-    }
-}
-if(!isFound){
-    console.log('data not found')
-}
+// for(var i = 0; i < 10 ; i++){
+//     if(arr[i] === find ) {
+//         console.log('Data fount at index' + ' ' + i)
+//     isFound = true
+//     break
+//     }
+// }
+// if(!isFound){
+//     console.log('data not found')
+// }
+
+//Multi Dimensional Array
+
+// var arr = [
+//   [50, 70, 80, 79],
+//   [80, 78, 93, 45],
+//   [78, 75, 78, 34],
+// ];
+// // console.log(arr[0][0])
+// // console.log(arr[1][3])
+
+// for (var i = 0; i < arr.length; i++) {
+//   for (var j = 0; j < arr[i].length; j++) {
+//       console.log("Element" + i + ":" + arr[i][j]);
+    
+//   }
+// }
+
+//Reverse an array
+
+var arr = [1,2,3,4,5,6,7]
+
+// for (var i = 0; (i<arr.length / 2); i++){
+//     var temp = arr[i]
+//     arr[i] = arr[arr.length -1 -i]
+//     arr[arr.length -1 -  i] = temp
+// }
+
+console.log(arr.reverse())
