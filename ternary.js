@@ -230,9 +230,22 @@
 // var arr2 = Array.from(arr)
 // console.log(arr2)
 
-var a = [1,2]
-var b = Array.from(a)
+// var a = [1,2]
+// var b = Array.from(a)
 
-b[0] = 5
-console.log(a)
-console.log(b)
+// b[0] = 5
+// console.log(a)
+// console.log(b)
+
+//object in javascript
+
+// var obj = {}
+// obj.x = 10
+// console.log(obj)
+
+var bioData = {
+    name : 'mominul islam',
+    email: 'mominul@hridoy',
+    age : 20 
+}
+console.log(bioData)
