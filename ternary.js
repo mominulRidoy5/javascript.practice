@@ -243,9 +243,35 @@
 // obj.x = 10
 // console.log(obj)
 
-var bioData = {
-    name : 'mominul islam',
-    email: 'mominul@hridoy',
-    age : 20 
+// var bioData = {
+//     name : 'mominul islam',
+//     email: 'mominul@hridoy',
+//     age : 20 
+// }
+// console.log(bioData)
+
+//functional database
+
+// function add (a, b ){
+//     const result = a - b 
+// console.log(result)
+// }
+//  add(20, 5)
+
+// arrayFunction
+
+var arr1 = [1,5,7]
+var arr2 = [3,7,2]
+var arr3 = [6,8,7]
+
+function sumArray (arr){
+    var sum = 0
+    for (var i = 0; i < arr1.length; i++){
+        sum += arr[i]
+    }
+    console.log(sum)
+
 }
-console.log(bioData)
+sumArray(arr1) 
+sumArray(arr2) 
+sumArray(arr3) 
